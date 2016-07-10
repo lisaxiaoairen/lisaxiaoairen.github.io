@@ -1,0 +1,257 @@
+.clear{
+	clear: both;
+}
+.header{
+	background-color:#f2f2f2;
+}
+.header-inner{
+	width:963px;
+	margin:0 auto;
+	padding:36px 0px 0px 40px;
+	overflow: hidden;
+	/*border:1px solid red;*/
+}
+.header-top .logo{
+	float: left;
+	padding:0px 18px 10px 0px;
+}
+.header-top .top-r{
+	float: left;
+}
+.header-top .top-r h1{
+	font-size:23px;
+	font-family:楷书;
+	padding-bottom:12px;
+}
+.header-top .top-r p{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing:-1px;
+}
+.header-top .top-r h1 #biaoti{
+	color:#2b7c00;
+}
+.header-top .top-r p #jieshi{
+	color:#919771
+}
+.header-bot{
+	height: 56px;
+	clear: both;
+}
+.header-bot ul{
+	float: left;
+	padding-left:17px;
+}
+.header-bot ul li{
+	float: left;
+	font-size:12px;
+	line-height: 56px;
+	padding-right:39px;
+}
+.header-bot ul #eight{
+	padding-right:10px;
+}
+.header-bot ul li a{
+	color:#090909;
+	font-weight:bold;
+	text-decoration:none;
+}
+.header-bot ul li a:hover{
+	color:#236a00;
+}
+.header-bot .search{
+	float: left;
+	margin:17px 0px 0px 90px;
+}
+.header-bot .search #s-box{
+	width: 100px;
+}
+.main{
+	padding-top:22px;
+}
+.main .main-inner{
+	width: 1003px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+}
+.banner{
+	width: 911px;
+	margin:0 auto;
+	border:6px solid #ececec;
+	margin-bottom:24px;
+}
+.main-bot{
+	width: 916px;
+	margin:0 auto;
+	padding-left:7px;
+}
+form{
+	float: left;
+	padding:13px 10px 25px 10px;
+	background-color:#f0f0f0;
+}
+form .for-top h5{
+	float: left;
+	color:#768920;
+	font-size: 12px;
+	padding-right:9px;
+}
+form .for-top a{
+	display:inline-block;
+	margin-top:1.5px;
+}
+form .biaodan{
+	width: 175px;
+	background-color:#ffffff;
+	border:1px solid #dddddd;
+	padding:15px 20px 14px 23px;
+}
+form .biaodan .box{
+	margin-bottom:10px;
+}
+form .biaodan .box label{
+	font-size:12px;
+	color:#444444;
+	font-weight:bold;
+	letter-spacing:-0.5px;
+}
+form .biaodan .box input{
+	width: 115px;
+	border-top:1px solid #424242;
+}
+form .biaodan .box select{
+	width: 110px;
+	border-top:1px solid #424242;
+}
+form .biaodan .box #b-4{
+	width: 60px;
+	border-top:1px solid #424242;
+}
+form .biaodan #b-5{
+	margin-left:50px;
+}
+form hr{
+	margin:12px 0px;
+}
+form dl dt{
+	float: left;
+	margin-right:12px;
+}
+form dl dd{
+	float: left;
+	font-size:12px;
+	line-height:24px;
+	letter-spacing:-0.5px;
+	font-weight: bold;
+}
+form dl dd p a{
+	color:#7a8c20;
+}
+.main-inner .box1{
+	float: left;
+	width: 300px;
+	font-size:12px;
+	line-height:22px;
+	margin-left:35px;
+}
+.main-inner .box1 h3{
+	width: 300px;
+	font-size:25px;
+	color:#89231f;
+	border-bottom:1px solid #e6e6e6;
+	padding-bottom:7px;
+	margin-bottom:12px;
+}
+.main-inner .box1 ul li{
+	list-style-type:disc;
+}
+.main-inner .box1 ul li a{
+	color:#474747;
+	text-decoration:none;
+}
+.main-inner .box1 #more{
+	float: right;
+	color:#869a37;
+}
+.foot-top{
+	background-image: url(../images/bot-bj.gif);
+}
+.foot-t-inner{
+	width:963px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	padding:23px 20px;
+	overflow: hidden;
+}
+.foot-t-inner ul{
+	margin-top:14px;
+}
+.foot-t-inner ul li{
+	width: 240px;
+	text-align:center;
+	float: left;
+	border-left:1px solid #bcbcbc;
+}
+.foot-t-inner ul li a{
+	color:#3e759b;
+	text-decoration:none;
+}
+.foot-t-inner ul #f-t-li1{
+	border-left:none;
+}
+.foot-t-inner ul #f-t-li1 a{
+	color:#373737;
+}
+.foot-t-inner ul li img{
+	float: left;
+	margin-left:35px;
+}
+.foot-bot{
+	background-color:#141414;
+}
+.foot-b-inner{
+	width: 869px;
+	padding: 26px 67px;
+	margin:0 auto;
+	overflow: hidden;
+	/*border:1px solid red;*/
+}
+.foot-b-inner .bot-l{
+	float: left;
+}
+.foot-b-inner .bot-l ul li{
+	float: left;
+	padding:0px 8px;
+	border-right:1px solid #595959;
+}
+.foot-b-inner .bot-l ul li a{
+	color:#595959;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.foot-b-inner .bot-l ul #l-3{
+	border-right:none;
+}
+.foot-b-inner .bot-r{
+	float:right;
+}
+.foot-b-inner .bot-r h5{
+	color:#5f683b;
+	font-size:12px;
+	float: right;
+	line-height:22px;
+	letter-spacing:-0.5px;
+}
+.foot-b-inner .bot-r p{
+	color:#404040;
+	font-size:12px;
+	line-height:20px;
+	letter-spacing:-0.5px;
+}
+.foot-b-inner .bot-r #r-1{
+	float: right;
+}
+.foot-b-inner .bot-r #r-2{
+	padding-left:180px;
+}
