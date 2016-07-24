@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.box{
+			width:100px;
+			height:100px;
+
+		}
+		div{
+			background-color: yellow;
+		}
+		#test{
+			background-color: red;
+		}
+		/*标签选择器的权重值最低为1
+		class选择器的权重值为10
+		id选择器的权重值为100,
+		权重值高的选择器的样式会覆盖权重值低的样式*/
+	</style>
+</head>
+<body>
+	<div class="box" id="test"></div>
+</body>
+</html>

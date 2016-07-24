@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			padding:0px;
+			margin:0px;
+		}
+		img{
+			width: 500px;
+			height: 300px;
+		}
+		.box{
+			width: 500px;
+			position:relative;
+		}
+		ul{
+			position:absolute;
+			top:250px;
+			left:350px;
+		}
+		ul li{
+			float: left;
+			list-style:none;
+			width: 20px;
+			height: 20px;
+			border:1px solid #ccc;
+			text-align:center;
+			line-height:20px;
+			background-color:yellow;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<img src="../images/5.jpg" alt="">
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+		</ul>
+	</div>
+	<!-- 如果没有position属性,top,left,bottom,right属性不起作用
+	决定定位position:absolute;两个值分别为top和left
+	绝对定位不占位,脱离文档流,如果父级有position:relative,那么参照父级,否则参照物为body
+	相对定位position:relative;占位,定位参照原来的位置
+	固定定位position:fixed;参照浏览器窗口,不占位. -->
+</body>
+</html>

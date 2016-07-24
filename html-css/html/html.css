@@ -1,0 +1,63 @@
+h3{
+	font-size: 30px;
+}
+p{
+	font-size:25px;
+}
+.header-inner{
+	width: 999px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+}
+.header-inner .logo img{
+	width: 999px;
+	height:200px;
+}
+.banner-inner{
+	width: 999px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	overflow: hidden;
+}
+.banner-inner .ban1 img{
+	float: left;
+	width: 300px;
+	height: 200px;
+}
+.banner-inner h2{
+	float: left;
+	font-size:20px;
+	padding-top:100px;
+}
+.banner-inner .ban2 img{
+	float: right;
+	width: 300px;
+	height: 200px;
+}
+.main-inner{
+	width: 999px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	margin-top:50px;
+}
+.footer-inner{
+	width: 999px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	overflow: hidden;
+}
+.footer-inner .ban1 img{
+	float: left;
+	width: 300px;
+	height: 200px;
+}
+.footer-inner h2{
+	float: left;
+	font-size:20px;
+	padding-top:100px;
+}
+.footer-inner .ban2 img{
+	float: right;
+	width:238px;
+	height: 200px;
+}
